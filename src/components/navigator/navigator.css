@@ -1,0 +1,44 @@
+.navigator{
+    width: 100%;
+    display: inline-flex;
+    height: 10vh;
+    background-color: #30383E;
+    mix-blend-mode: hard-light;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+a {
+    font-style: normal;
+    font-family: 'Kumbh sans';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.left {
+    width: 50%;
+}
+
+.middle {
+    width: 25%;
+}
+
+.right {
+    width: 25%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    color: white;
+    padding-right: 10px;
+    font-size: x-large;
+}
