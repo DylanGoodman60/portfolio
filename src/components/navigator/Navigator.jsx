@@ -1,5 +1,7 @@
 import "./navigator.css"
 import { FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
+import { FaFilePdf } from 'react-icons/fa';
 
 export default function Navigator() {
     return (
@@ -22,7 +24,9 @@ export default function Navigator() {
             </div>
             <div className="middle"></div>
             <div className = "right">
+                <FaFilePdf />
                 <FaLinkedinIn />
+                <FaGithub />
             </div>
         </div>
     )

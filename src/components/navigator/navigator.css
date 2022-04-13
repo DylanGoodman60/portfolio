@@ -1,9 +1,9 @@
 .navigator{
-    width: 100%;
+    width: 90%;
     display: inline-flex;
     height: 10vh;
+    margin-top: 5vh;
     background-color: #30383E;
-    mix-blend-mode: hard-light;
     align-items: center;
 }
 
@@ -34,11 +34,17 @@ a {
     width: 25%;
 }
 
-.right {
+.right { /* Icons */
     width: 25%;
     display: inline-flex;
     justify-content: space-evenly;
     color: white;
     padding-right: 10px;
-    font-size: x-large;
+    font-size: xx-large;
+}
+
+@media only screen and (max-width: 700px) {
+    .navigator {
+        background-color: aqua;
+    }
 }

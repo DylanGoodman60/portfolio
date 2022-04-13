@@ -1,0 +1,33 @@
+.mainpage {
+    display: grid;
+    grid-template-columns: 60vw 40vw;
+    grid-template-rows: 25vh 40vh;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+        
+.hello { 
+    grid-area: 1 / 2 / 2 / 3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+h1 {
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-style: normal;
+    font-family: 'Kumbh sans';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 25px;
+    color: white;
+    text-align: center;
+}
