@@ -4,6 +4,7 @@
     grid-template-rows: 25vh 40vh;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    margin-right: 5vh;
 }
         
 .hello { 
@@ -30,4 +31,14 @@ p {
     line-height: 25px;
     color: white;
     text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .mainpage {
+        display: flex;
+        margin-right: 0px;
+    }
+    .hello {
+        margin-top: 5vh;
+    }
 }

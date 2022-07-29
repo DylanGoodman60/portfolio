@@ -11,9 +11,17 @@ ul {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    flex-direction: row;
 }
 
-a {
+li {
+    padding-left: .2vh;
+    padding-right: .2vh;
+}
+
+a, button {
+    all: unset;
+    cursor: pointer;
     font-style: normal;
     font-family: 'Kumbh sans';
     font-weight: 400;
@@ -38,17 +46,31 @@ a {
     width: 25%;
     display: inline-flex;
     justify-content: space-evenly;
-    color: white;
     padding-right: 10px;
     font-size: xx-large;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
+    ul {
+        flex-direction: column;
+    }
+    li {
+        padding-left: 0vh;
+        padding-right: 0vh;
+    }
     .navigator {
-        background-color: aqua;
+        height: 12vh
     }
 }
 
 .fa-icon {
-    color: red;
+    color: white;
+    transition: color 0.25s ease-out;
+    transition: transform 0.25s ease-out;
+}
+
+.fa-icon:hover {
+    cursor: pointer;
+    color: #27747C;
+    transform: scale(1.5);
 }
