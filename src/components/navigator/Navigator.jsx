@@ -24,10 +24,10 @@ export default function Navigator(props) {
                         <button onClick={props.go.portfolio}>PORTFOLIO</button>
                     </li>
                     <li>
-                        <a href="#Portfolio">BOOKSHELF</a>
+                        <button onClick={props.go.bookshelf}>BOOKSHELF</button>
                     </li>
                     <li>
-                        <a href="#Portfolio">ABOUT</a>
+                        <button onClick={props.go.about}>ABOUT</button>
                     </li>
                 </ul>
             </div>

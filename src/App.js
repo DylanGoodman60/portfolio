@@ -1,8 +1,8 @@
 import Navigator from "./components/navigator/Navigator"
 import Mainpage from "./components/mainpage/Mainpage"
+import Portfolio from "./components/Portfolio/Portfolio";
 import "./app.css"
 import React, {useState} from 'react';
-
 
 
 function App() {
@@ -15,6 +15,12 @@ function App() {
     },
     portfolio: () => {
       setShow('portfolio')
+    },
+    bookshelf: () => {
+      setShow('bookshelf')
+    },
+    about: () => {
+      setShow('about')
     }
   }
 
@@ -22,6 +28,7 @@ function App() {
     <div className="app">
       <Navigator go={functions}/>
       { show==='home' ? <Mainpage />:null }
+      <Portfolio lever={show}/>
 
     </div>
   );

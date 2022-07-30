@@ -5,6 +5,7 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     margin-right: 5vh;
+    animation: fadein 1s;
 }
         
 .hello { 
@@ -31,6 +32,11 @@ p {
     line-height: 25px;
     color: white;
     text-align: center;
+}
+
+@keyframes fadein {
+    0% {opacity: 0%};
+    100% {opacity: 100%};
 }
 
 @media only screen and (max-width: 1000px) {
