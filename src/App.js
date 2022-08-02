@@ -2,7 +2,7 @@ import Navigator from "./components/navigator/Navigator"
 import Mainpage from "./components/mainpage/Mainpage"
 import Portfolio from "./components/Portfolio/Portfolio"
 import "./app.css"
-import React, {useState} from 'react';
+import React from 'react';
 
 
 function App() {
