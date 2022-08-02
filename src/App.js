@@ -1,34 +1,19 @@
 import Navigator from "./components/navigator/Navigator"
 import Mainpage from "./components/mainpage/Mainpage"
-import Portfolio from "./components/Portfolio/Portfolio";
+import Portfolio from "./components/Portfolio/Portfolio"
 import "./app.css"
 import React, {useState} from 'react';
 
 
 function App() {
-  
-  const [show, setShow]=React.useState('home')
-
-  const functions = {
-    home: () => {
-      setShow('home')
-    },
-    portfolio: () => {
-      setShow('portfolio')
-    },
-    bookshelf: () => {
-      setShow('bookshelf')
-    },
-    about: () => {
-      setShow('about')
-    }
-  }
+  const screens = ["home", "portfolio", "bookshelf", "about"];
+  const [screen, setScreens]=React.useState(screens)
 
   return (
     <div className="app">
-      <Navigator go={functions}/>
-      { show==='home' ? <Mainpage />:null }
-      <Portfolio lever={show}/>
+      <Navigator screen={screen} setScreens={setScreens}/>
+      <Mainpage screen={screen}/>
+      <Portfolio screen={screen}/>
 
     </div>
   );

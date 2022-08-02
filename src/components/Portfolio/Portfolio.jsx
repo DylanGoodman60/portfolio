@@ -1,15 +1,12 @@
 import "./Portfolio.css"
+import Maffle from "./jobs/Maffle.jsx"
 
-export default function Portfolio(props) {
+export default function Portfolio({screen}) {
 
-    if (props.lever !== 'portfolio') {
+    if (screen !== 'portfolio') {
         return null;
     }
     return (
-        <div className="portfolio">
-            <div className="textBox">
-                <p>gabagool</p>
-            </div>
-        </div>
+        <Maffle />
     )
 }

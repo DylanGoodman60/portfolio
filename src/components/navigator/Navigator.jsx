@@ -7,28 +7,30 @@ const resumeUrl = "https://youtube.com";
 const linkedinUrl = "https://www.linkedin.com/in/dylan-jr-goodman/";
 const githubUrl = "https://github.com/dylangoodman60";
 
-export default function Navigator(props) {
+export default function Navigator({ screen, setScreens }) {
 
+    function handleChange(theOption) {
+        setScreens(theOption);
+        console.log(theOption);
+    };
     function openLink(str) {
         window.open(str, '_blank').focus();
     };
+
+    const options = [ "home", 'portfolio', 'bookshelf', 'about']
 
     return (
         <div className="navigator">
             <div className ="left">
                 <ul>
-                    <li textDecoration="none">
-                        <button onClick={props.go.home}>HOME</button>
-                    </li>
-                    <li>
-                        <button onClick={props.go.portfolio}>PORTFOLIO</button>
-                    </li>
-                    <li>
-                        <button onClick={props.go.bookshelf}>BOOKSHELF</button>
-                    </li>
-                    <li>
-                        <button onClick={props.go.about}>ABOUT</button>
-                    </li>
+                    {options.map((text) => (
+                        <li key={text}>
+                            <button
+                                onClick={() => handleChange(text)}
+                                className = {screen === text ? 'selected' : 'null'}
+                            >{text.toUpperCase()}</button>
+                        </li>
+                    ))};
                 </ul>
             </div>
             <div className="middle"></div>
