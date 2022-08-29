@@ -4,11 +4,10 @@
     display: inline-flex;
     margin-top: 4vh;
     margin-bottom: 4vh;
-    height: 100vh;
     align-items: center;
     overflow-y: scroll;
     transition: opacity;
-
+    flex-grow: 1;
     background: linear-gradient(117.71deg, rgba(255, 255, 255, 0.297) 6.61%, rgba(255, 255, 255, 0.045) 74.56%);
     mix-blend-mode: normal;
     box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.4);
@@ -26,30 +25,58 @@
 }
 
 .company {
-    padding-top: 4vh;
-    padding-bottom: 4vh;
+    padding: 2vh 6vh 2vh 6vh;
+    /* border-radius: 20px; */
 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 40px;
-    line-height: 49px;
+    font-size: 3rem;
+    line-height: 2rem;
     text-align: center;
     letter-spacing: 0.28em;
 
-    mix-blend-mode: overlay;
     color: white;
+    background-color: #30383e;
+
+    display: flex;
+    position: sticky;
+    top: 1vh;
+    z-index: 2;
+}
+
+
+
+.date {
+
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 3rem;
+  text-align: center;
+  letter-spacing: 0.28em;
+
+  mix-blend-mode: overlay;
+  color: white;
 }
 
 .description {
     font-family: 'Montserrat';
     font-style: normal;
+    margin: 1rem 5rem 2rem 5rem;
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
     text-align: center;
     letter-spacing: 0.04em;
     color: white;
+}
+
+.portfolio-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @keyframes fadein {

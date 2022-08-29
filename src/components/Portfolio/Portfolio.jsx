@@ -1,5 +1,5 @@
 import "./Portfolio.css"
-import Maffle from "./jobs/Maffle.jsx"
+import Maffle from "./Maffle/Maffle.jsx"
 
 export default function Portfolio({screen}) {
 
@@ -7,6 +7,8 @@ export default function Portfolio({screen}) {
         return null;
     }
     return (
-        <Maffle />
+        <div className="portfolio">
+            <Maffle />
+        </div>
     )
 }

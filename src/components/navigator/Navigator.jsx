@@ -30,7 +30,7 @@ export default function Navigator({ screen, setScreens }) {
                                 className = {screen === text ? 'selected' : 'null'}
                             >{text.toUpperCase()}</button>
                         </li>
-                    ))};
+                    ))}
                 </ul>
             </div>
             <div className="middle"></div>

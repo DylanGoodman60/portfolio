@@ -67,7 +67,13 @@ button:hover, .selected {
         padding-right: 0vh;
     }
     .navigator {
-        height: 12vh
+        height: 8rem;
+    }
+    .middle {
+        width: 15%;
+    }
+    .right {
+        width: 35%;
     }
 }
 
