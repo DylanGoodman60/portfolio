@@ -1,4 +1,4 @@
-import me from "./me.jpeg"
+import maffleLogo from "./companylogo.png"
 
 export default function Maffle() {
     return (
@@ -13,7 +13,15 @@ export default function Maffle() {
                     during your lifetime with your children, your family and the world, in accordance with your wishes.” If you would like to learn more, please visit www.Maffle.com
             </div>
             <div className="jobphoto">
-                <img src={me} alt="Maffle"/>            
+                <img src={maffleLogo} alt="Maffle"/>            
+            </div>
+            <div className="portfolio-header">Job Description</div>
+            <div className="description">As a software developer at Maffle, I was responsible for writing, testing and implementing many features included in the Maffle desktop application. 
+            I worked closely with my boss and CEO Tim to introduce new features, improve old ones, investigate technology or simply change the interface to be more user-friendly.
+            At first, I focused on learning how to develop in a new environment and language while adhering to the company style guide. Once I felt up to speed, Tim started giving me 
+            features to implement. This included things like working with custom network protocols, integrating C libraries of audio and video codecs, designing interfaces, working with 
+            cryptography and security or simply adding new features. My background in computer science was the core of everything I did at Maffle and I was constantly trying to improve my 
+            skills. Maffle’s architecture already had high standards in efficiency, style and readability so I had to learn as much as possible to match those standards.
             </div>
         </div>
     )
