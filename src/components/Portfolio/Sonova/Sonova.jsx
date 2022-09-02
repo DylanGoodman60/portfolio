@@ -7,7 +7,8 @@ export default function Sonova() {
     return (
         <div className="portfolio-items">
             <div className="company">Unitron Sonova</div>
-            <div className="date">Sept - Dec 2021</div>
+            <div className="date">Software Quality Assurance Analyst</div>
+            <div className="date"><i>Sept - Dec 2021</i></div>
             <div className="jobphoto">
                 <img src={logo} alt="Maffle"/>            
             </div>
@@ -30,7 +31,7 @@ My final goal was simply to get to know my co-workers better, in and out of work
 In a remote position, it is easy to forget that there are people working alongside you in similar positions. In my case, there were a lot of other Guelph Co-op students in their final years of school who were happy to give me advice and recommendations for the rest of my terms. Luckily, our team manager Kevin valued the importance of our team really knowing each other, scheduling two team lunches which I attended. It was great to finally see my coworkers in person, and try to learn from their careers and enjoy their company. A sense of friendship can come along way, especially when tackling difficult problems under a time crunch.</div>
         <div className="portfolio-header">Meaning and impact</div>
         <div className="jobphoto">
-                <img src={team} alt="Sonova"/>            
+                <img src={team} alt="Sonova"/>                
         </div>
         <div className="description">Working for Sonova was a special experience because of what we were working for. The goal was always to improve the lives of those with hearing loss, not to just make a profit. This change in perspective seemed to change the way I worked. Every problem we investigated didn’t just include finding the quick fix, it meant stepping into the shoes of our user and trying to make their lives easier. How can we fix not only this problem, but problems of a similar type? What causes this problem? Where else could this problem occur? My coworkers showed me that it’s possible to be thorough in all aspects of work. When I would ask them a question, they wouldn’t just shoot me a one sentence answer. They would make sure that I understood the solution, so that if it came up again, I could fix it myself. This experience has inspired me to be more thorough in my working and student life.</div>
         <div className="portfolio-header">Conclusion</div>

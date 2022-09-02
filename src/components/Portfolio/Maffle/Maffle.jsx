@@ -4,8 +4,9 @@ export default function Maffle() {
     return (
         <div className="portfolio-items">
             <div className="company">MAFFLE</div>
-            <div className="date">(My Ad FFree LifE) May - August 2021</div>
+            <div className="date">(My Ad FFree LifE)</div>
             <div className="date">Software Developer</div>
+            <div className="date"><i>May - August 2021</i></div>
             <div className="description">Maffle is the quintessential tool for digital human connections. Here is a short description that was given to me to explain Maffle to others: 
                     “Maffle is a software platform that seamlessly integrates 2D with 3D worlds and spaces, and a place to enjoy all-things-digital in complete personal privacy. 
                     Maffle is a lifelong digital assistant to help you every day. Maffle makes you (the individual) the recipient of the value of the digital things you create, 
