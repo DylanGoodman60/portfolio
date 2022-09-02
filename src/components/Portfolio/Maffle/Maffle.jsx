@@ -15,11 +15,11 @@ export default function Maffle() {
                     during your lifetime with your children, your family and the world, in accordance with your wishes.” If you would like to learn more, please visit www.Maffle.com
             </div>
             {/* <div className="jobphoto"> */}
-                <img src={maffleLogo} alt="Maffle"/>            
+                <img src={maffleLogo}/>            
             {/* </div> */}
             <div className="portfolio-header">Job Description</div>
             <div className="jobphoto">
-                <img src={loginScreen} alt="Maffle"/>                        
+                <img src={loginScreen}/>                        
             </div>
             <div className="description">As a software developer at Maffle, I was responsible for writing, testing and implementing many features included in the Maffle desktop application. 
             I worked closely with my boss and CEO Tim to introduce new features, improve old ones, investigate technology or simply change the interface to be more user-friendly.

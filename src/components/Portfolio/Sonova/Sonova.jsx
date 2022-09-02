@@ -10,17 +10,17 @@ export default function Sonova() {
             <div className="date">Software Quality Assurance Analyst</div>
             <div className="date"><i>Sept - Dec 2021</i></div>
             <div className="jobphoto">
-                <img src={logo} alt="Maffle"/>            
+                <img src={logo}/>            
             </div>
             <div className="description">Unitron is located in Kitchener, Ontario and provides hearing care solutions to a variety of customers. They ensure a complete user experience for both the customer and the audiologist configuring hearing instruments for their patients. Unitron has won 7 “Red Dot Awards” for their products and has over 2.5 billion dollars in sales.</div>
             <div className="portfolio-header">Job Description</div>
             <div className="jobphoto">
-                <img src={HI} alt="Sonova"/>            
+                <img src={HI}/>            
             </div>
             <div className="description">At Sonova, I was a Software Quality Assurance Analyst. My job was to execute and maintain various tests using the software that configures hearing instruments. There is such a vast network of information related to specific hearing instruments, their softwares, their accessories and their configuration that had to be referenced and used everyday. It was a steep learning curve, but slowly I gained confidence and competency in the world of personal hearing instruments. Working in the Agile methodology alongside the software development team, I would report potential bugs and find as much information as possible about their occurrences. The job required patience and accuracy to ensure bugs are found by our team, not by the customer.</div>
             <div className="portfolio-header">Learning Goals</div>
             <div className="jobphoto">
-                <img src={ME} alt="Sonova"/>            
+                <img src={ME}/>            
             </div>
             <div className="description">Working at a larger company was a fantastic learning experience due to the amount of teams that had to work in harmony. I set up my learning goals to get more of an insight into my coworkers, how they worked and what technology they worked with.
 My first learning goal was to learn more about the Agile development cycle.
@@ -31,7 +31,7 @@ My final goal was simply to get to know my co-workers better, in and out of work
 In a remote position, it is easy to forget that there are people working alongside you in similar positions. In my case, there were a lot of other Guelph Co-op students in their final years of school who were happy to give me advice and recommendations for the rest of my terms. Luckily, our team manager Kevin valued the importance of our team really knowing each other, scheduling two team lunches which I attended. It was great to finally see my coworkers in person, and try to learn from their careers and enjoy their company. A sense of friendship can come along way, especially when tackling difficult problems under a time crunch.</div>
         <div className="portfolio-header">Meaning and impact</div>
         <div className="jobphoto">
-                <img src={team} alt="Sonova"/>                
+                <img src={team}/>                
         </div>
         <div className="description">Working for Sonova was a special experience because of what we were working for. The goal was always to improve the lives of those with hearing loss, not to just make a profit. This change in perspective seemed to change the way I worked. Every problem we investigated didn’t just include finding the quick fix, it meant stepping into the shoes of our user and trying to make their lives easier. How can we fix not only this problem, but problems of a similar type? What causes this problem? Where else could this problem occur? My coworkers showed me that it’s possible to be thorough in all aspects of work. When I would ask them a question, they wouldn’t just shoot me a one sentence answer. They would make sure that I understood the solution, so that if it came up again, I could fix it myself. This experience has inspired me to be more thorough in my working and student life.</div>
         <div className="portfolio-header">Conclusion</div>

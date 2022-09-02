@@ -9,10 +9,10 @@ export default function Guelph() {
             <div className="company">University of Guelph</div>
             <div className="date">Research Assistant</div>
             <div className="date"><i>May - August 2022</i></div>
-            <img className="guelph-logo" src={logo} alt="Guelph University Logo"/>            
+            <img className="guelph-logo" src={logo}/>            
             <div className="description">A USRA is an Undergraduate Student Research Award program, provided to develop potential for a research career in university students. They are ultimately provided to encourage students to pursue graduate studies. The engineering faculty at the University of Guelph provided a USRA position under Dr. Ahmed Refaey Hussein, my supervising professor.</div>
             <div className="portfolio-header">Job Description</div>
-            <img className="system-model" src={model} alt="System Model"/>            
+            <img className="system-model" src={model}/>            
             <div className="description">As a student researcher, my task was to lead the research and writing for an academic paper. The goal was to innovate the Internet of Things space in Agriculture, through the use of FPGA's, machine vision and machine learning. Our specific use case was built upon an already occuring research project at the university; the classification of trees in a field. Our implementation was to attach a Kria Vision AI starter kit System on Module to a UAV drone, and have this detection occur in real time. To increase the accuracy of classification, we used multiple camera streams attached to the same board, as it was built for this kind of multi-angular machine vision.<br /><br />
             My work was split into Python programming and paper writing. I wrote a large number of Python scripts combining multiple libraries (OpenCV, matplotlib, Numpy, Hypertools etc.) to create applications that could run on-board. Paper writing was done in LaTeX, and I generated diagrams using a variety of software (Blender, Visio, Photoshop, pyplot etc.).</div>
             <div className="portfolio-header">Application Development</div>
