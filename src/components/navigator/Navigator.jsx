@@ -3,7 +3,6 @@ import { FaLinkedinIn } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaFilePdf } from 'react-icons/fa';
 import resume from './Dylan_Goodman_CV2022.pdf';
-import { useEffect } from "react";
 
 const linkedinUrl = "https://www.linkedin.com/in/dylan-jr-goodman/";
 const githubUrl = "https://github.com/dylangoodman60";
