@@ -1,11 +1,17 @@
 import "./bookshelf.css"
 
+import testImage from "./images/kv260.jpg"
+
 export default function main({screen}) {
     if(screen !== 'bookshelf') {
         return null;
     }
 
     return (
-        <h1>Under construction</h1>
+        <div className="container">
+            <div className="photos">
+                <img src={testImage} alt="KV260"/>  
+            </div>
+        </div>
     )
 }
