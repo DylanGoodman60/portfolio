@@ -7,12 +7,11 @@ export default function About({screen}) {
     return (
         <div className="portfolio">
             <div className="company">About me</div>
-                <div className="description">My name is Dylan, and I am a fourth year computer science student at the university of Guelph. At my core, I am a curious and easily obsessed person. I have a broad array of technical, athletic, and artistic interests. I rarely feel bored, and prefer to fill my schedule with fun and meaningful activities!</div>
+                <div className="description">My name is Dylan, and I am a fourth year computer science student at the university of Guelph. I am infinitely curious and easily interested in many topics. I have a broad array of technical, athletic, and artistic interests. I am the kind of person who is rarely bored.</div>
             <div className="company">Technical Expertise</div>
-                <div className="description">I have been programming mainly in Python, Java and C for many years. I have used a variety of other languages, and use the foundations of programming often to learn new frameworks and libraries. I consider myself a generalist, and don't have a "favourite" language. Unique problems require unique solutions, and thereby unique languages.</div>
+                <div className="description">I have been programming in Python, C and Java for many years. I use these languages as a foundation to learn many other languages and frameworks, for the task at hand. I consider myself a generalist, and do not have a "favourite" language. Unique problems require unique solutions, and thereby unique languages and techniques.</div>
             <div className="company">Athletics & hobbies</div>
-                <div className="description">Athletics, health and fitness are a big part of my life. I've played many sports throughout my life, but am currently enjoying squash, golf, disc golf and badminton. I also go to the gym and run occasionally, as I consider my physical health wholly intertwined with my mental health. I am an avid listener of the Barbell Medicine Podcast, and consider barbell training the fundamental of my training.</div>
-                <div className="description">I have always enjoyed picking up new hobbies and improving at them. I usually have a few working obsessions, that come and go with time. As a younger kid, I enjoyed cup stacking and rubrik's cubing, attending competitive events for both. More recently, I have been interested in drawing, watercolour painting, video editing, gaming and reading.</div>
+                <div className="description">Athletics, health and fitness are a big part of my life. I am currently enjoying squash, golf, and disc golf. I also go to the gym and run often, as I consider my physical health wholly intertwined with my mental health.</div>
         </div>
     )
 }
