@@ -1,5 +1,6 @@
-# Getting Started with Create React App
+# Personal website created with create-react-app
 
-## npm install
-## npm start
-
+```
+npm install
+npm start
+```
