@@ -26,7 +26,7 @@ export default function main({screen}) {
     return (
         <div className="portfolio">
             <div className="photos">
-                {images.map((x) => <img src={x}/>)}
+                {images.map((x) => <img src={x} alt=""/>)}
             </div>
         </div>
     )

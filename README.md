@@ -1,12 +1,5 @@
-# Dylan Goodman Portfolio
+# Getting Started with Create React App
 
-Bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## npm install
+## npm start
 
-## To launch
-
-### `npm install`
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view in your browser.
