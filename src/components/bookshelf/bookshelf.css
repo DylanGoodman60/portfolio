@@ -24,8 +24,8 @@
   
   @media screen and (min-width: 1024px) {
     .photos img {
-      width: calc(100%/4);
-      height: calc(100%/4);
+      width: calc(100%/5);
+      height: calc(100%/5);
     }
   }
   

@@ -1,6 +1,6 @@
 import "./mainpage.css"
 const title = 'Hello! I\'m Dylan.';
-const description = 'A third year computer science student \nattending the university of Guelph';
+const description = 'A computer science graduate from the University of Guelph.';
 export default function mainpage({screen}) {
 
     if (screen !== "home") {
