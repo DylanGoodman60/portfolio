@@ -16,7 +16,7 @@ export default function Navigator({ screen, setScreens }) {
         window.open(str, '_blank').focus();
     };
 
-    const options = [ "home", 'portfolio', 'bookshelf', 'about']
+    const options = [ "home", 'portfolio','bookshelf' ];
     return (
         <div className="navigator">
             <div className ="left">
